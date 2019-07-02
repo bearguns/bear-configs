@@ -1,0 +1,22 @@
+#+TITLE: Fish Shell Configuration Files
+#+AUTHOR: Sean Brage
+
+These files setup and configure the wonderful [[https://fishshell.com/][Fish shell]] for use on my
+systems. I spent a lot of time using and configuring ZSH with [[https://github.com/robbyrussell/oh-my-zsh][Oh My
+Zsh]], but I spent almost as much time waiting for my shell to load and
+for common shell tasks to run on a tricked-out ZSH system. Fish isn't
+without its quirks, but it's /just so fast/ that I'm going all in on
+it.
+
+* About these files
+** ~config.fish~
+The most important file is ~config.fish~. This is the nearest
+equivalent to a ~.bashrc~ or ~.zshrc~, and handles baseline
+configuration for Fish.
+
+** ~fishfile~
+[[https://github.com/jorgebucaran/fisher][Fisher]] is a package manager for Fish - think of it like ~brew~ or
+~pacman~ for the Fish shell. It makes it easy to install Fish plugins
+and themes, and even supports Oh My Fish packages. It does all of this
+with nowhere near the footprint or fiddling that Oh My Zsh or Oh My
+Fish require.
